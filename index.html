@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Untitled Document</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Interstellar Zodiac</h1>
+
+    <div class="buttons">
+        <img id="cap" src="img/jupiter_icon.png" alt="">
+        <img id="sag" src="img/jupiter_icon.png" alt="">
+        <img id="sco" src="img/jupiter_icon.png" alt="">
+        <img id="lib" src="img/jupiter_icon.png" alt="">
+        <img id="vir" src="img/jupiter_icon.png" alt="">
+        <img id="leo" src="img/jupiter_icon.png" alt="">
+        <img id="can" src="img/jupiter_icon.png" alt="">
+        <img id="gem" src="img/jupiter_icon.png" alt="">
+        <img id="tau" src="img/jupiter_icon.png" alt="">
+        <img id="ari" src="img/jupiter_icon.png" alt="">
+        <img id="pis" src="img/jupiter_icon.png" alt="">
+        <img id="aqu" src="img/jupiter_icon.png" alt="">
+
+    </div>
+
+
+    <div id="wrapper">
+        <form action="">
+            <label for="zods">Birthday</label>
+            <input type="date" id="zodDate" name="zodDate">
+
+        </form>
+
+        <button id="compute" onclick="computeZod(); showZodiac();">Compute</button>
+        <div id="showMe"></div>
+
+    </div>
+
+    <div id=col_right>
+
+        <img id="hero" src="img/sun.png" alt="sun" />  
+        <div id="zodiac_text">
+        <h2 id="zodiac_title">The Sun</h2> 
+        
+        <p id="zodiac_desc"></p>
+        </div>
+    </div>
+
+
+    <script src="zodiac.js"></script>
+
+</body>
+
+</html>

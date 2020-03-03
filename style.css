@@ -1,0 +1,9 @@
+.buttons {
+
+    float: left;
+    width: 35%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+
+}
