@@ -10,51 +10,56 @@
 </head>
 
 <body>
-
-    <h1>Interstellar Zodiac</h1>
+    <div>
+        <h1>Interstellar Zodiac</h1>
+        <img src="img/help.png" alt="help" id="help">
+    </div>
 
     <div class="buttons">
-        <img id="cap" src="img/jupiter_icon.png" alt="">
-        <img id="sag" src="img/jupiter_icon.png" alt="">
-        <img id="sco" src="img/jupiter_icon.png" alt="">
-        <img id="lib" src="img/jupiter_icon.png" alt="">
-        <img id="vir" src="img/jupiter_icon.png" alt="">
-        <img id="leo" src="img/jupiter_icon.png" alt="">
-        <img id="can" src="img/jupiter_icon.png" alt="">
-        <img id="gem" src="img/jupiter_icon.png" alt="">
-        <img id="tau" src="img/jupiter_icon.png" alt="">
-        <img id="ari" src="img/jupiter_icon.png" alt="">
-        <img id="pis" src="img/jupiter_icon.png" alt="">
-        <img id="aqu" src="img/jupiter_icon.png" alt="">
+        <img id="capr" class="soundtrack" src="img/sun_icon.png" alt="">
+        <img id="sag" class="soundtrack" src="img/mercury_icon.png" alt="">
+        <img id="sco" class="soundtrack" src="img/venus_icon.png" alt="">
+        <img id="lib" class="soundtrack" src="img/earth_icon.png" alt="">
+        <img id="vir" class="soundtrack" src="img/mars_icon.png" alt="">
+        <img id="leo" class="soundtrack" src="img/jupiter_icon.png" alt="">
+        <img id="can" class="soundtrack" src="img/saturn_icon.png" alt="">
+        <img id="gem" class="soundtrack" src="img/uranus_icon.png" alt="">
+        <img id="tau" class="soundtrack" src="img/neptune_icon.png" alt="">
+        <img id="ari" class="soundtrack" src="img/pluto_icon.png" alt="">
+        <img id="pis" class="soundtrack" src="img/quasar_icon.png" alt="">
+        <img id="aqu" class="soundtrack" src="img/black_hole_icon.png" alt="">
 
     </div>
+
+    <audio id="speakers"></audio>
 
 
     <div id="wrapper">
         <form action="">
-            <label for="zods">Birthday</label>
+            <label for="zods">Enter your Birthday:</label>
             <input type="date" id="zodDate" name="zodDate">
 
         </form>
 
-        <button id="compute" onclick="computeZod(); showZodiac();">Compute</button>
+        <button id="compute" onclick="computeZod();">Compute</button>
         <div id="showMe"></div>
+
+
+
 
     </div>
 
     <div id=col_right>
 
-        <img id="hero" src="img/sun.png" alt="sun" />  
+        <img id="hero" src="img/blank.png" alt="sun" />
         <div id="zodiac_text">
-        <h2 id="zodiac_title">The Sun</h2> 
-        
-        <p id="zodiac_desc"></p>
+            <h2 id="zodiacName">Your Celestial Body Is...</h2>
+
+            <p id="zodiacDesc"></p>
         </div>
     </div>
 
 
     <script src="zodiac.js"></script>
 
-</body>
-
-</html>
+</body></html>

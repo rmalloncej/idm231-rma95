@@ -7,3 +7,20 @@
 
 
 }
+
+h1 {
+    margin-left: 1em;
+}
+
+#help {
+    float: left;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+#compute {
+
+    text-align: center;
+    widows: 200px;
+}
